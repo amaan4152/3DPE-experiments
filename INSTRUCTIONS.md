@@ -41,7 +41,7 @@ Amaan Rahman
    cd mediapipe
    ```
 
-   <u><em>Note</em></u>: Make sure to be in the root directory of `mediapipe` from here on out, unless                    specified otherwise.
+   <u><em>Note</em></u>: Make sure to be in the root directory of `mediapipe` from here on out, unless specified otherwise.
 
 4. Install OpenCV and FFmpeg 
    
