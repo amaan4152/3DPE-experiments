@@ -17,9 +17,9 @@ Amaan Rahman
    ```
    
    <u><em>Note</em></u>: If you already executed `bazel` to build or run Mediapipe examples prior to upgrading `gcc` and `g++`, then make sure to clear the `bazel` cache like so: 
-   
-                                                    `rm -rf ~/.cache/bazel`
-
+   ```
+   rm -rf ~/.cache/bazel
+   ```
 2.  Install OpenGL ES packages
    
    ```bash
@@ -42,7 +42,7 @@ Amaan Rahman
    cd mediapipe
    ```
 
-        *<u>Note</u>*: Make sure to be in the root directory of `mediapipe` from here on out, unless                    specified otherwise.
+   <u><em>Note</em></u>: Make sure to be in the root directory of `mediapipe` from here on out, unless                    specified otherwise.
 
 4. Install OpenCV and FFmpeg 
    
@@ -56,7 +56,7 @@ Amaan Rahman
        libopencv-video-dev
    ```
 
-        <u>*Note*</u>: Don't attempt to build OpenCV from source, there is a high possibility that                   the Jetson Nano may crash
+   <u>*Note*</u>: Don't attempt to build OpenCV from source, there is a high possibility that                   the Jetson Nano may crash
 
 5. Check in the `mediapipe` root directory that there is a soft link directory called `bazel-bin`, if not execute the following commands to check and instantiate the soft link: 
    
