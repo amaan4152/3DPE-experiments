@@ -15,8 +15,7 @@ Amaan Rahman
    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-9
    
    ```
-   
-   <u><em>Note</em></u>: If you already executed `bazel` to build or run Mediapipe examples prior to upgrading `gcc` and `g++`, then make sure to clear the `bazel` cache like so: 
+<u><em>Note</em></u>: If you already executed `bazel` to build or run Mediapipe examples prior to upgrading `gcc` and `g++`, then make sure to clear the `bazel` cache like so: 
    ```
    rm -rf ~/.cache/bazel
    ```
